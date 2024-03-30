@@ -2,11 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: gray;
 }
 
 header {
   height: 100vh;
-  background: linear-gradient(to top right, #81b622, #a0e7e5, #2ec719);
+  background-color: black;
   display: grid;
   place-content: center;
 }
@@ -33,4 +34,13 @@ code {
   color: whitesmoke;
   display: grid;
   place-content: center;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  place-content: center;
+  padding: 20px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
 }
