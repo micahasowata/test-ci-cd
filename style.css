@@ -6,12 +6,7 @@
 
 header {
   height: 100vh;
-  background: linear-gradient(
-    to top right,
-    rgb(0, 0, 0),
-    rgb(255, 255, 255),
-    rgb(66, 1, 1)
-  );
+  background: linear-gradient(to top right, #81b622, #a0e7e5, #2ec719);
   display: grid;
   place-content: center;
 }
